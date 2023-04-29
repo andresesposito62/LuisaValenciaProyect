@@ -13,14 +13,14 @@ class _LandingPageMobileState extends State<LandingPageMobile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //drawer: Drawer(),
+      drawer: const Drawer(),
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromRGBO(233, 230, 223, 50),
         elevation: 0.0,
         iconTheme: const IconThemeData(
             size: 25.0,
-            color: Colors.white
+            color: Colors.black45
         ),
         title: Row(
           children: const [
