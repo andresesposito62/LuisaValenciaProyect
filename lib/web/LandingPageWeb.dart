@@ -20,7 +20,7 @@ class _LandingPageWebState extends State<LandingPageWeb> {
       //drawer: Drawer(),
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromRGBO(233, 230, 223, 50),
         elevation: 0.0,
         iconTheme: const IconThemeData(
             size: 25.0,

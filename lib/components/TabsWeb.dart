@@ -19,7 +19,7 @@ class _TabsWebState extends State<TabsWeb> {
   Widget build(BuildContext context) {
 
     const selectedTitleStyle = TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 30.0,
         fontFamily: "Lato",
         fontWeight: FontWeight.bold,
@@ -29,14 +29,14 @@ class _TabsWebState extends State<TabsWeb> {
     );
 
     const unselectedTitleStyle = TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 27.0,
         fontFamily: "Lato",
         fontWeight: FontWeight.bold
     );
 
     const selectedSubtitleStyle = TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 20.0,
         fontFamily: "Lato",
         fontWeight: FontWeight.bold,
@@ -46,7 +46,7 @@ class _TabsWebState extends State<TabsWeb> {
     );
 
     const unselectedSubtitleStyle = TextStyle(
-        color: Colors.white,
+        color: Colors.black,
         fontSize: 17.0,
         fontFamily: "Lato",
         fontWeight: FontWeight.bold
