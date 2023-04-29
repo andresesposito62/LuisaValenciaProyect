@@ -21,35 +21,35 @@ class _TabsWebState extends State<TabsWeb> {
     const selectedTitleStyle = TextStyle(
         color: Colors.black,
         fontSize: 30.0,
-        fontFamily: "Lato",
-        fontWeight: FontWeight.bold,
+        fontFamily: "DancingScript",
+        fontWeight: FontWeight.normal,
         decoration: TextDecoration.underline,
         decorationThickness: 1,
-        decorationColor: Colors.white54
+        decorationColor: Colors.black12
     );
 
     const unselectedTitleStyle = TextStyle(
         color: Colors.black,
         fontSize: 27.0,
-        fontFamily: "Lato",
-        fontWeight: FontWeight.bold
+        fontFamily: "DancingScript",
+        fontWeight: FontWeight.normal
     );
 
     const selectedSubtitleStyle = TextStyle(
         color: Colors.black,
         fontSize: 20.0,
         fontFamily: "Lato",
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.normal,
         decoration: TextDecoration.underline,
         decorationThickness: 1,
-        decorationColor: Colors.white54
+        decorationColor: Colors.black12
     );
 
     const unselectedSubtitleStyle = TextStyle(
         color: Colors.black,
         fontSize: 17.0,
         fontFamily: "Lato",
-        fontWeight: FontWeight.bold
+        fontWeight: FontWeight.normal
     );
 
     if(widget.typeFont == "title"){

@@ -28,7 +28,7 @@ class _LandingPageWebState extends State<LandingPageWeb> {
         ),
         title: Row(
           children: const [
-            TabsWeb(StringsEs.LUISA_VALENCIA, "title"),
+            TabsWeb(StringsEs.PSIC_LUISA_VALENCIA, "title"),
             Spacer(flex: 5,),
             TabsWeb(StringsEs.HOME, "subtitle"),
             Spacer(),

@@ -24,7 +24,7 @@ class _LandingPageMobileState extends State<LandingPageMobile> {
         ),
         title: Row(
           children: const [
-            TabsWeb(StringsEs.LUISA_VALENCIA, "title"),
+            TabsWeb(StringsEs.PSIC_LUISA_VALENCIA, "title"),
           ],
         ),
       ),
