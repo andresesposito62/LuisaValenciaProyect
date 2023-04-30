@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../components/ServicesField.dart';
 import '../components/TabsWeb.dart';
 import '../strings/StringsEs.dart';
 
@@ -36,8 +37,12 @@ class _LandingPageMobileState extends State<LandingPageMobile> {
               child: Column(
                 children: [
                   Image.asset("assets/img/photo-1.jpg"),
-                  //SocialMediaModule(),
-                  //DigitalPlatformModule(),
+                  Container(
+                    //width: width/2,
+                    margin: const EdgeInsets.only(top: 30.0, left: 20, right: 20, bottom: 30),
+                    alignment: Alignment.center,
+                    child: ServicesField(),
+                  )
                 ],
               ),
             )

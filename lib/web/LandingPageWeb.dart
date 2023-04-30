@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:luisa_valencia_application/components/ServicesField.dart';
 import '../components/TabsWeb.dart';
 import '../strings/StringsEs.dart';
 
@@ -48,31 +49,17 @@ class _LandingPageWebState extends State<LandingPageWeb> {
               children: [
                 Container(
                   width: width,
-                  height: height / 15
-                ),
-                Container(
-                  width: width / 2,
-                  height: height / 2,
-                  alignment: Alignment.topCenter,
+                  height: height/3,
                   child: Image.asset("assets/img/photo-1.jpg",
-                    alignment: Alignment.topCenter,
+                    alignment: Alignment.center,
                     fit: BoxFit.cover,
                   ) ,
-                ),
-                /*Container(
-                    height: height - 56,
-                    width: width - (width * 2 / 3),
-                    child: ListView(
-                      children: [
-                        Column(
-                          children: [
-                            //SocialMediaModule(),
-                            //DigitalPlatformModule()
-                          ],
-                        ),
-                      ],
-                    )
-                )*/
+                ),Container(
+                  width: width/2,
+                  margin: const EdgeInsets.only(top: 30.0, left: 0, right: 0, bottom: 30),
+                  alignment: Alignment.center,
+                  child: ServicesField(),
+                )
               ],
             ),
           )
