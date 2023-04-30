@@ -17,14 +17,14 @@ class _LandingPageWebState extends State<LandingPageWeb> {
     double height = MediaQuery.of(context).size.height;
 
     return Scaffold(
-      //drawer: Drawer(),
+      drawer: Drawer(),
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: const Color.fromRGBO(233, 230, 223, 50),
         elevation: 0.0,
         iconTheme: const IconThemeData(
             size: 25.0,
-            color: Colors.white
+            color: Colors.black45
         ),
         title: Row(
           children: const [
@@ -42,36 +42,37 @@ class _LandingPageWebState extends State<LandingPageWeb> {
         ),
       ),
       body: ListView(
-        /*children: [
+        children: [
           Container(
             child: Row(
               children: [
                 Container(
-                  width: width * 2 / 3,
+                  //width: width * 2 / 3,
+                  width: width,
                   height: height - 56,
-                  child: Image.asset("assets/img/_DSC5109-2.jpg",
-                    alignment: Alignment(-0.9, -0.5),
+                  child: Image.asset("assets/img/photo-1.jpg",
+                    alignment: Alignment.center,//Alignment(-0.9, -0.5),
                     fit: BoxFit.cover,
                   ) ,
                 ),
-                Container(
+                /*Container(
                     height: height - 56,
                     width: width - (width * 2 / 3),
                     child: ListView(
                       children: [
                         Column(
                           children: [
-                            SocialMediaModule(),
-                            DigitalPlatformModule()
+                            //SocialMediaModule(),
+                            //DigitalPlatformModule()
                           ],
                         ),
                       ],
                     )
-                )
+                )*/
               ],
             ),
           )
-        ],*/
+        ],
       ),
     );
   }

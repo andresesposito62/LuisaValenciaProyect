@@ -31,17 +31,17 @@ class _LandingPageMobileState extends State<LandingPageMobile> {
       body: Container(
         alignment: Alignment.center,
         child: ListView(
-          /*children: [
+          children: [
             Container(
               child: Column(
                 children: [
-                  Image.asset("assets/img/_DSC5109-2.jpg"),
-                  SocialMediaModule(),
-                  DigitalPlatformModule(),
+                  Image.asset("assets/img/photo-1.jpg"),
+                  //SocialMediaModule(),
+                  //DigitalPlatformModule(),
                 ],
               ),
             )
-          ],*/
+          ],
         ),
       ),
     );
