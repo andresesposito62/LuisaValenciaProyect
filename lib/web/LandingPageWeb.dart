@@ -44,14 +44,18 @@ class _LandingPageWebState extends State<LandingPageWeb> {
       body: ListView(
         children: [
           Container(
-            child: Row(
+            child: Column(
               children: [
                 Container(
-                  //width: width * 2 / 3,
                   width: width,
-                  height: height - 56,
+                  height: height / 15
+                ),
+                Container(
+                  width: width / 2,
+                  height: height / 2,
+                  alignment: Alignment.topCenter,
                   child: Image.asset("assets/img/photo-1.jpg",
-                    alignment: Alignment.center,//Alignment(-0.9, -0.5),
+                    alignment: Alignment.topCenter,
                     fit: BoxFit.cover,
                   ) ,
                 ),
