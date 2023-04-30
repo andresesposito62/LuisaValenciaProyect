@@ -27,12 +27,12 @@ class ServicesField extends StatelessWidget {
       child: Column(
         children: [
           ServiceItem(StringsEs.SERVICES_ITEM_8),
-          ServiceItem(StringsEs.SERVICES_ITEM_8),
           ServiceItem(StringsEs.SERVICES_ITEM_9),
           ServiceItem(StringsEs.SERVICES_ITEM_10),
           ServiceItem(StringsEs.SERVICES_ITEM_11),
           ServiceItem(StringsEs.SERVICES_ITEM_12),
           ServiceItem(StringsEs.SERVICES_ITEM_13),
+          ServiceItem(""),
         ],
       ),
     );
@@ -40,6 +40,7 @@ class ServicesField extends StatelessWidget {
     final item_list = Container(
       alignment: Alignment.center,
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           first_columm,
           second_columm
@@ -48,21 +49,18 @@ class ServicesField extends StatelessWidget {
     );
 
 
-    final title = Column(
-      children: <Widget>[
-        Container(
-          alignment: Alignment.center,
-          child: const Text(
-            StringsEs.SERVICES_TITLE,
-            style: TextStyle(
-                fontFamily: "Lato",
-                fontSize: 30.0,
-                fontWeight: FontWeight.normal
-            ),
-            textAlign: TextAlign.center,
-          ),
+    final title = Container(
+      alignment: Alignment.center,
+      margin: const EdgeInsets.only(top: 5.0, left: 5.0, right: 5.0, bottom: 20.0),
+      child: const Text(
+        StringsEs.SERVICES_TITLE,
+        style: TextStyle(
+            fontFamily: "Lato",
+            fontSize: 30.0,
+            fontWeight: FontWeight.normal
         ),
-      ],
+        textAlign: TextAlign.center,
+      ),
     );
 
     final description = Column(
