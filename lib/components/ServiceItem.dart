@@ -23,7 +23,7 @@ class ServiceItem extends StatelessWidget {
         child: Text(
           itemToShow,
           style: const TextStyle(
-              fontFamily: "Lato",
+              fontFamily: "JosefinSlab",
               fontSize: 12,
               fontWeight: FontWeight.w500
           ),

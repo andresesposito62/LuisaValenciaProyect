@@ -100,3 +100,11 @@ flutter:
     - family: Lato
       fonts:
         - asset: fonts/Lato-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: fonts/Oxigen-Regular.ttf
+
+    - family: JosefinSlab
+      fonts:
+        - asset: fonts/JosefinSlab-VariableFont_wght.ttf

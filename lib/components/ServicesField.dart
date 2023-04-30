@@ -55,7 +55,7 @@ class ServicesField extends StatelessWidget {
       child: const Text(
         StringsEs.SERVICES_TITLE,
         style: TextStyle(
-            fontFamily: "Lato",
+            fontFamily: "Oxygen",
             fontSize: 30.0,
             fontWeight: FontWeight.normal
         ),
