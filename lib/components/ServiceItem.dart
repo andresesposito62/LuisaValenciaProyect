@@ -17,7 +17,7 @@ class ServiceItem extends StatelessWidget {
       //child:
       Container(
         alignment: Alignment.topLeft,
-        height: 60.0,
+        height: 50.0,
         width: 200.0,
         margin: const EdgeInsets.only(top: 0.0, left: 5.0, right: 5.0, bottom: 0.0),
         child: Text(

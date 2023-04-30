@@ -55,7 +55,7 @@ class _LandingPageWebState extends State<LandingPageWeb> {
                     fit: BoxFit.cover,
                   ) ,
                 ),Container(
-                  width: width/2,
+                  width: 500.0,
                   margin: const EdgeInsets.only(top: 30.0, left: 0, right: 0, bottom: 30),
                   alignment: Alignment.center,
                   child: ServicesField(),
