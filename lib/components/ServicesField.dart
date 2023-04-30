@@ -7,7 +7,8 @@ class ServicesField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final item_list = Container(
+    final first_columm = Container(
+      alignment: Alignment.topLeft,
       child: Column(
         children: [
           ServiceItem(StringsEs.SERVICES_ITEM_1),
@@ -17,6 +18,15 @@ class ServicesField extends StatelessWidget {
           ServiceItem(StringsEs.SERVICES_ITEM_5),
           ServiceItem(StringsEs.SERVICES_ITEM_6),
           ServiceItem(StringsEs.SERVICES_ITEM_7),
+        ],
+      ),
+    );
+
+    final second_columm = Container(
+      alignment: Alignment.topRight,
+      child: Column(
+        children: [
+          ServiceItem(StringsEs.SERVICES_ITEM_8),
           ServiceItem(StringsEs.SERVICES_ITEM_8),
           ServiceItem(StringsEs.SERVICES_ITEM_9),
           ServiceItem(StringsEs.SERVICES_ITEM_10),
@@ -27,11 +37,21 @@ class ServicesField extends StatelessWidget {
       ),
     );
 
+    final item_list = Container(
+      alignment: Alignment.center,
+      child: Row(
+        children: [
+          first_columm,
+          second_columm
+        ],
+      ),
+    );
+
 
     final title = Column(
       children: <Widget>[
         Container(
-          alignment: Alignment.topCenter,
+          alignment: Alignment.center,
           child: const Text(
             StringsEs.SERVICES_TITLE,
             style: TextStyle(

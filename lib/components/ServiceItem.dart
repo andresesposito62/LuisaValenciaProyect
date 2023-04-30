@@ -7,18 +7,22 @@ class ServiceItem extends StatelessWidget {
   //Constructor
   ServiceItem(this.itemToShow);
 
-
   @override
   Widget build(BuildContext context) {
 
+    double width = MediaQuery.of(context).size.width;
+    double height = MediaQuery.of(context).size.height;
+
     final itemText = Container(
-      alignment: Alignment.centerLeft,
-      margin: const EdgeInsets.only(top: 15.0, left: 0.0, right: 0.0, bottom: 5.0),
+      alignment: Alignment.topLeft,
+      height: height/20,
+      width: width/5,
+      margin: const EdgeInsets.only(top: 5.0, left: 5.0, right: 5.0, bottom: 5.0),
       child: Text(
         itemToShow,
         style: const TextStyle(
             fontFamily: "Lato",
-            fontSize: 20,
+            fontSize: 12,
             fontWeight: FontWeight.w500
         ),
         textAlign: TextAlign.left,
