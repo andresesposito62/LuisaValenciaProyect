@@ -38,7 +38,7 @@ class _TabsWebState extends State<TabsWeb> {
     const selectedSubtitleStyle = TextStyle(
         color: Colors.black,
         fontSize: 20.0,
-        fontFamily: "Lato",
+        fontFamily: "Oxygen",
         fontWeight: FontWeight.normal,
         decoration: TextDecoration.underline,
         decorationThickness: 1,
@@ -48,7 +48,7 @@ class _TabsWebState extends State<TabsWeb> {
     const unselectedSubtitleStyle = TextStyle(
         color: Colors.black,
         fontSize: 17.0,
-        fontFamily: "Lato",
+        fontFamily: "Oxygen",
         fontWeight: FontWeight.normal
     );
 

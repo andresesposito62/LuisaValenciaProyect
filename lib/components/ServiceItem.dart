@@ -25,7 +25,7 @@ class ServiceItem extends StatelessWidget {
           style: const TextStyle(
               fontFamily: "JosefinSlab",
               fontSize: 12,
-              fontWeight: FontWeight.w500
+              fontWeight: FontWeight.bold,
           ),
           textAlign: TextAlign.start,
         ),

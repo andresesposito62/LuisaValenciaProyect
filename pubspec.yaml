@@ -103,7 +103,7 @@ flutter:
 
     - family: Oxygen
       fonts:
-        - asset: fonts/Oxigen-Regular.ttf
+        - asset: fonts/Oxygen-Regular.ttf
 
     - family: JosefinSlab
       fonts:
