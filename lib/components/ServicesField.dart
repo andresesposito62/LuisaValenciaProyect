@@ -18,21 +18,12 @@ class ServicesField extends StatelessWidget {
           ServiceItem(StringsEs.SERVICES_ITEM_5),
           ServiceItem(StringsEs.SERVICES_ITEM_6),
           ServiceItem(StringsEs.SERVICES_ITEM_7),
-        ],
-      ),
-    );
-
-    final second_columm = Container(
-      alignment: Alignment.topRight,
-      child: Column(
-        children: [
           ServiceItem(StringsEs.SERVICES_ITEM_8),
           ServiceItem(StringsEs.SERVICES_ITEM_9),
           ServiceItem(StringsEs.SERVICES_ITEM_10),
           ServiceItem(StringsEs.SERVICES_ITEM_11),
           ServiceItem(StringsEs.SERVICES_ITEM_12),
-          ServiceItem(StringsEs.SERVICES_ITEM_13),
-          ServiceItem(""),
+          ServiceItem(StringsEs.SERVICES_ITEM_13)
         ],
       ),
     );
@@ -43,7 +34,6 @@ class ServicesField extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           first_columm,
-          second_columm
         ],
       ),
     );
